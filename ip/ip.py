@@ -6,7 +6,7 @@ import os
 from email.mime.text import MIMEText
 from email.utils import formataddr
 
-ipFile = '/home/miranda/python/ip/ip.txt'
+ipFile = './ip.txt'
 
 def email(message):
     msg = MIMEText(message, 'plain', 'utf-8')
