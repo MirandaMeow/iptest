@@ -1,1 +1,3 @@
 # iptest
+
+need SMTPlib
